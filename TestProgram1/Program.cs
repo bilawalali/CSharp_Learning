@@ -16,7 +16,8 @@ namespace TestProgram1
         {
             StringLecture myobj = new StringLecture();
             //myobj.String_Lecture();
-            myobj.Summary_Text();
+            //myobj.Summary_Text();
+            myobj.Strng_Builder();
         }
     }
 }
