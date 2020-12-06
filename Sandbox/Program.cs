@@ -3,9 +3,10 @@ using System.Linq;
 using System.Text;
 using System;
 using TestProgram1.Math;
-using TestProgram1;
 
-namespace TestProgram1
+using Sandbox;
+
+namespace Sandbox
 {
     
 
@@ -14,10 +15,9 @@ namespace TestProgram1
 
         static void Main(string[] _args)
         {
-            StringLecture myobj = new StringLecture();
-            //myobj.String_Lecture();
-            //myobj.Summary_Text();
-            myobj.Strng_Builder();
+            TextExercise myobj = new TextExercise();
+            myobj.Exercise1();
+            myobj.Exercise2();
         }
     }
 }
@@ -50,4 +50,13 @@ namespace TestProgram1
 //myobj.DateLecture();
 //myobj.TS();
 //myobj.Parse_Test();
+
+//StringLecture myobj = new StringLecture();
+//myobj.String_Lecture();
+//myobj.Summary_Text();
+//myobj.Strng_Builder();
+
+
+//WorkingWithFilesLecture myobj = new WorkingWithFilesLecture();
+//myobj.Lecture();
 
